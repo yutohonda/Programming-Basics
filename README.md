@@ -9,6 +9,7 @@
 - [シラバス](https://github.com/MukaiClass/Programming-Basics/wiki/シラバス)
 - [GitHubの利用手順](https://github.com/MukaiClass/Programming-Basics/wiki/GitHubの利用手順)
 - [開発環境について](https://github.com/MukaiClass/Programming-Basics/wiki/開発環境について)
+- [予復習について](https://github.com/MukaiClass/Programming-Basics/wiki/予復習について)
 
 ### 2. 変数と入出力
 ### 3. 式と演算子
