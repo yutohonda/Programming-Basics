@@ -13,7 +13,11 @@
 - [ガイダンス資料(抜粋)](https://github.com/MukaiClass/Programming-Basics/blob/slide/ガイダンス.pdf)
 
 ### 2. 数値演算と出力
+- [スライド](https://github.com/MukaiClass/Programming-Basics/blob/slide/02数値演算と出力.pdf)
+
 ### 3. 変数と配列
+- [スライド](https://github.com/MukaiClass/Programming-Basics/blob/slide/03変数と配列.pdf)
+
 ### 4. 条件分岐
 ### 5. 反復
 ### 6. 基礎演習
