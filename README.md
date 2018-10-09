@@ -42,3 +42,5 @@
 - [苦しんで覚えるＣ言語](http://9cguide.appspot.com/): C言語入門サイトです．文法や仕様をきちんと理解したい人にオススメします．書籍版も持ち運びしやすい＆読みやすいのでオススメです．
 - [ロベールのＣ＋＋教室](http://www7b.biglobe.ne.jp/~robe/cpphtml/): C++言語の文法や仕様について広くカバーしています．章立てが細かくまとめられているので，短時間での自習にもオススメです．自宅で独習したいひとには書籍版の購入もお勧めします．
 - [新・明解C++入門](https://www.sbcr.jp/products/4797394634.html): C++言語の文法について細かい部分まで解説している良書です．本腰を入れてC++を学びたい人にオススメです．
+- [APG4b](https://beta.atcoder.jp/contests/apg4b): 詳しくは[予復習について](https://github.com/MukaiClass/Programming-Basics/wiki/予復習について)を参照してください。
+- [ドットインストール C言語入門](https://dotinstall.com/lessons/basic_c): C言語の動画チュートリアルが多数公開されています。
