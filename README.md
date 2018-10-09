@@ -4,6 +4,9 @@
 - 担当教員： 向井智彦（email: mukai@tmu.ac.jp, 日野１号館２階２４７室）
 - 講義に関する質問は [講義ページのIssue](https://github.com/MukaiClass/Programming-Basics/issues)へ記載して下さい．
 
+## 連絡事項(10/09更新)
+- [10/09] 本日までの履修者については、向井が行うべきGitHubレポジトリ設定を全て完了させたつもりです。もし、「PB2018-ユーザー名」レポジトリにアクセスできない、レポジトリ内に「Wiki」「Project」というメニューが見えている、あるいはプルリクエスト発行後に「Review required」のような赤色×マークが表れないなどの不具合が生じている場合は、早めに上記emailアドレスまで連絡してください。
+
 ## 講義資料
 ### 1. ガイダンス（GitHub導入）
 - [シラバス](https://github.com/MukaiClass/Programming-Basics/wiki/シラバス)
