@@ -28,6 +28,8 @@
   - 1つめの課題はファイル名「03-01.cpp」で、2つめは「03-02.cpp」、3つめは「03-03.cpp」としてcommit＆pull request
 
 ### 4. 条件分岐
+- [スライド（仮版）](https://github.com/MukaiClass/Programming-Basics/blob/slide/04条件分岐.pdf)
+
 ### 5. 反復
 ### 6. 基礎演習
 ### 7. 関数
