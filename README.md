@@ -25,7 +25,7 @@
 ### 3. 変数と配列
 - [スライド](https://github.com/MukaiClass/Programming-Basics/blob/slide/03変数と配列.pdf)（10/13更新）
 - [演習課題の実施方法](https://github.com/MukaiClass/Programming-Basics/wiki/%E8%AA%B2%E9%A1%8C%E3%81%AE%E5%AE%9F%E6%96%BD%E6%96%B9%E6%B3%95%EF%BC%88%E5%89%8D%E5%8D%8A%EF%BC%89#web)
-  - 1つめの課題はファイル名「03-01.cpp」で、2つめは「03-02.cpp」としてcommit＆pull request
+  - 1つめの課題はファイル名「03-01.cpp」で、2つめは「03-02.cpp」、3つめは「03-03.cpp」としてcommit＆pull request
 
 ### 4. 条件分岐
 ### 5. 反復
