@@ -28,7 +28,10 @@
 
 ### 4. 条件分岐
 - [スライド](https://github.com/MukaiClass/Programming-Basics/blob/slide/04条件分岐.pdf)（10/21更新）
-
+- [演習課題の実施方法](https://github.com/MukaiClass/Programming-Basics/wiki/%E8%AA%B2%E9%A1%8C%E3%81%AE%E5%AE%9F%E6%96%BD%E6%96%B9%E6%B3%95%EF%BC%88%E5%89%8D%E5%8D%8A%EF%BC%89#web)
+  - 課題の提出期限はいずれも 10月29日(月)中．
+  - 1つめの課題はファイル名「04-01.cpp」、2つめは「04-02.cpp」、Extra課題も行う場合は「04-ex.cpp」としてcommit＆pull request
+  
 ### 5. 反復
 - [スライド仮版](https://github.com/MukaiClass/Programming-Basics/blob/slide/05反復.pdf)
 
