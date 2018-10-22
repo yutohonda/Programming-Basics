@@ -30,7 +30,7 @@
 - [スライド](https://github.com/MukaiClass/Programming-Basics/blob/slide/04条件分岐.pdf)（10/21更新）
 
 ### 5. 反復
-- [スライド仮版](https://github.com/MukaiClass/Programming-Basics/blob/slide/05反復.pdf)（10/21更新）
+- [スライド仮版](https://github.com/MukaiClass/Programming-Basics/blob/slide/05反復.pdf)
 
 ### 6. 関数
 ### 7. 値渡しと参照
