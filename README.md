@@ -5,6 +5,7 @@
 - 講義に関する質問は [講義ページのIssue](https://github.com/MukaiClass/Programming-Basics/issues)へ記載して下さい．
 
 ## 連絡事項(10/22更新)
+- [10/23] 第4回スライドを、演習のヒントを添えて更新しました。参考にしてください。
 - [10/22] 10/21の夜以降に提出された課題については，GitHubの大規模障害のため確認できていません．もし提出状況に不安がある場合は，明日23日以降に再度プルリクを送って下さい．
 - [10/22] 10/21(日)夕方までに提出された課題に対してコメントしました（確認方法は[このページの一番下](https://github.com/MukaiClass/Programming-Basics/wiki/%E3%83%97%E3%83%AB%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%82%92%E9%80%9A%E3%81%98%E3%81%9F%E6%8F%90%E5%87%BA%E5%A0%B1%E5%91%8A)）．
 - [10/06] (再掲)情報処理教室でGitHubを閲覧する際のWebブラウザには、Google Chromeの利用を推奨します。Microsoft EdgeやInternet Explorerではうまく動作しないことがあるようです。
@@ -28,7 +29,7 @@
   - 1つめの課題はファイル名「03-01.cpp」で、2つめは「03-02.cpp」、3つめは「03-03.cpp」としてcommit＆pull request
 
 ### 4. 条件分岐
-- [スライド](https://github.com/MukaiClass/Programming-Basics/blob/slide/04条件分岐.pdf)（10/23更新）
+- [スライド](https://github.com/MukaiClass/Programming-Basics/blob/slide/04条件分岐.pdf)（10/23夜更新）
 - [演習課題の実施方法](https://github.com/MukaiClass/Programming-Basics/wiki/%E8%AA%B2%E9%A1%8C%E3%81%AE%E5%AE%9F%E6%96%BD%E6%96%B9%E6%B3%95%EF%BC%88%E5%89%8D%E5%8D%8A%EF%BC%89#web)
   - 課題の提出期限はいずれも 10月29日(月)中．
   - 1つめの課題はファイル名「04-01.cpp」、2つめは「04-02.cpp」、Extra課題も行う場合は「04-ex.cpp」としてcommit＆pull request
