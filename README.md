@@ -36,7 +36,11 @@
   - コミットまで進めていても、プルリクエストを忘れる人が散見されます。提出時には必ず「Create pull request」です。
   
 ### 5. 反復
-- [スライド仮版](https://github.com/MukaiClass/Programming-Basics/blob/slide/05反復.pdf)
+- [スライド](https://github.com/MukaiClass/Programming-Basics/blob/slide/05反復.pdf)（10/25更新）
+- [演習課題の実施方法](https://github.com/MukaiClass/Programming-Basics/wiki/%E8%AA%B2%E9%A1%8C%E3%81%AE%E5%AE%9F%E6%96%BD%E6%96%B9%E6%B3%95%EF%BC%88%E5%89%8D%E5%8D%8A%EF%BC%89)
+  - 課題の提出期限はいずれも 11月6日(月)中．
+  - 課題ファイル「05-01.cpp」「05-02.cpp」＆「05-ex.cpp」を[課題ファイルの取得手順](https://github.com/MukaiClass/Programming-Basics/wiki/%E8%AA%B2%E9%A1%8C%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E5%8F%96%E5%BE%97%E6%89%8B%E9%A0%86)にしたがって取得して、その内容をそれぞれ更新
+  - 修正したファイルを[GitHub Desktopを利用した提出手順](https://github.com/MukaiClass/Programming-Basics/wiki/GitHub-Desktop%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%9F%E6%8F%90%E5%87%BA%E6%89%8B%E9%A0%86)で提出するか、あるいは[これまでの手順](https://github.com/MukaiClass/Programming-Basics/wiki/Web%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%9F%E6%8F%90%E5%87%BA%E6%89%8B%E9%A0%86)で提出する。
 
 ### 6. 関数
 ### 7. 値渡しと参照
