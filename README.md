@@ -44,6 +44,8 @@
   - プルリクエストも忘れずに！
 
 ### 6. 関数
+- [スライド仮版](https://github.com/MukaiClass/Programming-Basics/blob/slide/06関数.pdf)
+
 ### 7. 値渡しと参照
 ### 8. クラス
 ### 9. 基礎演習
