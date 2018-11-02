@@ -6,8 +6,6 @@
 
 ## 連絡事項(10/22更新)
 - [10/23] 第4回スライドを、演習のヒントを添えて更新しました。参考にしてください。
-- [10/22] 10/21の夜以降に提出された課題については，GitHubの大規模障害のため確認できていません．もし提出状況に不安がある場合は，明日23日以降に再度プルリクを送って下さい．
-- [10/22] 10/21(日)夕方までに提出された課題に対してコメントしました（確認方法は[このページの一番下](https://github.com/MukaiClass/Programming-Basics/wiki/%E3%83%97%E3%83%AB%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E3%82%92%E9%80%9A%E3%81%98%E3%81%9F%E6%8F%90%E5%87%BA%E5%A0%B1%E5%91%8A)）．
 - [10/06] (再掲)情報処理教室でGitHubを閲覧する際のWebブラウザには、Google Chromeの利用を推奨します。Microsoft EdgeやInternet Explorerではうまく動作しないことがあるようです。
 
 ## 講義資料
@@ -45,7 +43,7 @@
   - [演習課題05-01の動作のイメージ画像](https://github.com/MukaiClass/Programming-Basics/blob/slide/05-01image.png) (10/30追加)
 
 ### 6. 関数
-- [スライド](https://github.com/MukaiClass/Programming-Basics/blob/slide/06関数.pdf)
+- [スライド](https://github.com/MukaiClass/Programming-Basics/blob/slide/06関数.pdf)（11/2更新）
 - [演習課題の実施方法](https://github.com/MukaiClass/Programming-Basics/wiki/%E8%AA%B2%E9%A1%8C%E3%81%AE%E5%AE%9F%E6%96%BD%E6%96%B9%E6%B3%95%EF%BC%88%E5%89%8D%E5%8D%8A%EF%BC%89)
   - 課題の提出期限はいずれも 11月12日(月)午前中．
   - 課題ファイル「06-01.cpp」「06-02.cpp」＆「06-ex.cpp」を[課題ファイルの取得手順](https://github.com/MukaiClass/Programming-Basics/wiki/%E8%AA%B2%E9%A1%8C%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E5%8F%96%E5%BE%97%E6%89%8B%E9%A0%86)にしたがってこのページの上部から取得して、その内容をそれぞれ更新
