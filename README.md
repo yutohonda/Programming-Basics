@@ -51,7 +51,10 @@
   - プルリクエストも忘れずに！
   
 ### 7. 値渡しと参照・ポインタ
-- [スライド仮版](https://github.com/MukaiClass/Programming-Basics/blob/slide/07参照とポインタ.pdf)
+- [スライド](https://github.com/MukaiClass/Programming-Basics/blob/slide/07参照とポインタ.pdf)
+- [演習課題の実施方法](https://github.com/MukaiClass/Programming-Basics/wiki/%E8%AA%B2%E9%A1%8C%E3%81%AE%E5%AE%9F%E6%96%BD%E6%96%B9%E6%B3%95%EF%BC%88%E5%89%8D%E5%8D%8A%EF%BC%89)
+  - 課題の提出期限はいずれも 11月19日(月)17時まで（それ以降の提出については添削コメント省略）
+  - 課題ファイル「07-01.cpp」「07-02.cpp」を[課題ファイルの取得手順](https://github.com/MukaiClass/Programming-Basics/wiki/%E8%AA%B2%E9%A1%8C%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E5%8F%96%E5%BE%97%E6%89%8B%E9%A0%86)にしたがってこのページの上部から取得して、その内容をそれぞれ更新
 
 ### 8. 基礎演習1
 ### 9. 基礎演習2
