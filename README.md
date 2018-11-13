@@ -5,6 +5,7 @@
 - 講義に関する質問は [講義ページのIssue](https://github.com/MukaiClass/Programming-Basics/issues)へ記載して下さい．
 
 ## 連絡事項(11/13更新)
+- [11/13] 課題07-02とExcelの連携方法について追記しました。
 - [11/13] プルリクエストの発行の際には、「[コードレビュー](https://github.com/MukaiClass/Programming-Basics/wiki/%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC%E6%A9%9F%E8%83%BD%E3%81%AE%E5%88%A9%E7%94%A8)」という機能を使ってみて下さい。
 - [10/06] (再掲)情報処理教室でGitHubを閲覧する際のWebブラウザには、Google Chromeの利用を推奨します。Microsoft EdgeやInternet Explorerではうまく動作しないことがあるようです。
 
