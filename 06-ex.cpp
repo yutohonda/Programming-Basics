@@ -4,10 +4,26 @@
 
 using namespace std;
 
+// 階乗 n!
+int Fact(int n)
+{
+	int f = 1;
+	for (int i = 1; i <= n; ++i)
+	{
+		f = f * i;
+	}
+	return f;
+}
+// 組み合わせ a_C_b
+int Comb(int a, int b)
+{
+	return Fact(a) / (Fact(b) * Fact(a - b));
+}
+
 // 二項分布
 double Bin(int m, int M, double mu)
 {
-    // TODO: 完成させる
+    return Comb(M, m) * pow(mu, m) * pow(1.0 - mu, M - m);
 }
 
 // コイントス関数
