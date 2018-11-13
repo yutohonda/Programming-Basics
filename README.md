@@ -4,8 +4,8 @@
 - 担当教員： 向井智彦（email: mukai@tmu.ac.jp, 日野１号館２階２４７室）
 - 講義に関する質問は [講義ページのIssue](https://github.com/MukaiClass/Programming-Basics/issues)へ記載して下さい．
 
-## 連絡事項(10/22更新)
-- [10/23] 第4回スライドを、演習のヒントを添えて更新しました。参考にしてください。
+## 連絡事項(11/13更新)
+- [11/13] プルリクエストの発行の際には、「[コードレビュー](https://github.com/MukaiClass/Programming-Basics/wiki/%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC%E6%A9%9F%E8%83%BD%E3%81%AE%E5%88%A9%E7%94%A8)」という機能を使ってみて下さい。
 - [10/06] (再掲)情報処理教室でGitHubを閲覧する際のWebブラウザには、Google Chromeの利用を推奨します。Microsoft EdgeやInternet Explorerではうまく動作しないことがあるようです。
 
 ## 講義資料
@@ -55,6 +55,7 @@
 - [演習課題の実施方法](https://github.com/MukaiClass/Programming-Basics/wiki/%E8%AA%B2%E9%A1%8C%E3%81%AE%E5%AE%9F%E6%96%BD%E6%96%B9%E6%B3%95%EF%BC%88%E5%89%8D%E5%8D%8A%EF%BC%89)
   - 課題の提出期限はいずれも 11月19日(月)17時まで（それ以降の提出については添削コメント省略）
   - 課題ファイル「07-01.cpp」「07-02.cpp」を[課題ファイルの取得手順](https://github.com/MukaiClass/Programming-Basics/wiki/%E8%AA%B2%E9%A1%8C%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E5%8F%96%E5%BE%97%E6%89%8B%E9%A0%86)にしたがってこのページの上部から取得して、その内容をそれぞれ更新
+  - プルリクエストの発行の際には、「[コードレビュー](https://github.com/MukaiClass/Programming-Basics/wiki/%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AC%E3%83%93%E3%83%A5%E3%83%BC%E6%A9%9F%E8%83%BD%E3%81%AE%E5%88%A9%E7%94%A8)」という機能を使ってみて下さい。
 
 ### 8. 基礎演習1
 ### 9. 基礎演習2
