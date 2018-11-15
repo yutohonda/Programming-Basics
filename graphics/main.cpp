@@ -34,46 +34,49 @@ void display()
 
     double time = getTime(); // 経過時間を秒単位で取得
 
+    /////
+    ///// 2Dパート開始
+    glDisable(GL_LIGHTING);  // 消してはいけない
+
     // 画面を横切る線
-    glPushMatrix();
     //
     // 引数に線の太さを指定（浮動小数）
-    glLineWidth(1.0);
-    // 線の色：4次元配列の先頭から[Red, Green, Blue, Alpha] を指定。Alphaは透明度
-    float lineColor[4] = { 1.0, 1.0, 1.0, 1.0 }; 
-    glMaterialfv(GL_FRONT_AND_BACK, GL_DIFFUSE, lineColor);
+    glLineWidth(10.0);
+    // 線の色：引数は先頭から[Red, Green, Blue] を指定
+    glColor3d(1.0, 1.0, 1.0);
     // 線の描画
     glBegin(GL_LINES);        // 線描はじめ
     glVertex3d(-100.0, 0, 0); // 始端 [x, y, z]
     glVertex3d(100.0, 0, 0);  // 終端 [x, y, z]
     glEnd();                  // 線描おわり
-    //
-    glPopMatrix();
+
+    /////
+    ///// 3Dパート開始
+    glEnable(GL_LIGHTING);    // 消してはいけない
 
     // マウスカーソルについてくるティーポット
     glPushMatrix();
     //
     // ティーポットの位置指定 [x, y, z]
-    glTranslatef(mousePosX, mousePosY, 2);
+    glTranslated(mousePosX, mousePosY, 0);
     // ティーポットの回転 [回転角度(degree), 回転軸x, 回転軸y, 回転軸z]
-    glRotatef(time * 60.0f, 0, 0, 1.0f);
+    glRotated(time * 60.0, 0, 0, 1.0);
     // ティーポットの色
-    float color1[4] = { 1.0, 0.5, 0.5, 1.0 };
-    glMaterialfv(GL_FRONT_AND_BACK, GL_DIFFUSE, color1);
+    float teapot1Color[4] = { 1.0, 0.2, 0.2, 1.0 };
+    glMaterialfv(GL_FRONT_AND_BACK, GL_DIFFUSE, teapot1Color);
     // ティーポットの描画。引数には大きさを指定
     glutSolidTeapot(10.0);
     //
     glPopMatrix();
 
-    // 画面を横方向に往復しているティーポット（同上）
+    // 画面を横方向に往復している半透明ドーナッツ
     glPushMatrix();
-    //
     double px = 80.0 * sin(time * 2.0);
-    glTranslatef(px, 0, 0);
-    float color2[4] = { 0.5, 0.5, 1.0, 0.5 };
-    glMaterialfv(GL_FRONT_AND_BACK, GL_DIFFUSE, color2);
-    glutSolidTeapot(10.0);
-    //
+    glTranslated(px, 0, 0);
+    glRotated(time * 100.0, 0, 1.0, 0);
+    float teapot2Color[4] = { 0.2, 0.2, 1.0, 0.5f };
+    glMaterialfv(GL_FRONT_AND_BACK, GL_DIFFUSE, teapot2Color);
+    glutSolidTorus(5.0f, 10.0f, 50, 50); // 引数には2種類の半径と、あとは適当に50を2つ
     glPopMatrix();
 
     /***** ここまで編集する *****/
@@ -91,10 +94,9 @@ void predisplay()
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glMatrixMode(GL_MODELVIEW);
     glLoadIdentity();
-    // カメラの設定
-    gluLookAt(0, 0, 130.0,  // カメラの中心位置 [x, y, z]
-              0, 0, 0,      // カメラが注視する位置 [x, y, z]
-              0, 1.0, 0.0); // [0, 1, 0] で固定（google: CG y-up）
+    gluLookAt(0, 0, 100.0,
+        0, 0, 0,
+        0, 1.0, 0.0);
 }
 
 void postdisplay()
@@ -143,7 +145,7 @@ void resize(int w, int h)
     glViewport(0, 0, w, h);
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    glOrtho(-100.0, 100.0, -100.0, 100.0, 1.0e-2, 1.0e3);
+    glOrtho(-100.0, 100.0, -100.0, 100.0, 0.1, 200.0);
 }
 
 void mouseMotion(int x, int y)
@@ -158,19 +160,32 @@ int main(int argc, char* argv[])
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGBA | GLUT_DEPTH);
 
-    glutInitWindowSize(800, 800);
-    glutCreateWindow("graphics");
+    glutInitWindowSize(800, 800); // ウィンドウサイズ [幅, 高さ]
+    glutCreateWindow("graphics"); // ウィンドウ名
     
     glutDisplayFunc(display);
     glutIdleFunc(idle);
     glutKeyboardFunc(keyboard);
     glutPassiveMotionFunc(mouseMotion);
     glutReshapeFunc(resize);
+    glShadeModel(GL_SMOOTH);
+    glEnable(GL_NORMALIZE);
     glEnable(GL_DEPTH_TEST);
-    glEnable(GL_LIGHTING);
-    glEnable(GL_LIGHT0);
-    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
     glEnable(GL_BLEND);
+    glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+    glEnable(GL_LIGHT0);
+    float modelSpecular[4] = { 0.5f, 0.5f, 0.5f, 1.0f };
+    glMaterialfv(GL_FRONT_AND_BACK, GL_SPECULAR, modelSpecular);
+    float black[4] = { 0.0, 0.0, 0.0, 1.0 };
+    glLightfv(GL_LIGHT0, GL_AMBIENT, black);
+
+    // ライトの方向 [x, y, z, 1]
+    float lightDir[4] = { 0, 1.0f, 1.0f, 0.0f };
+    glLightfv(GL_LIGHT0, GL_POSITION, lightDir);
+    // ライトの色 [Red, Green, Blue, 1]
+    float lightColor[4] = { 1.0f, 1.0f, 1.0f, 1.0f };
+    glLightfv(GL_LIGHT0, GL_DIFFUSE, lightColor);
+    glLightfv(GL_LIGHT0, GL_SPECULAR, lightColor);
 
 #ifdef WIN32
     LARGE_INTEGER freq, t;
